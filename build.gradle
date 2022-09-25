@@ -38,7 +38,7 @@ spotless {
 
 	groovyGradle {
 		target '*.gradle'
-		greclipse()
+		// greclipse()
 	}
 
 	java {

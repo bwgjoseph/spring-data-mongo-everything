@@ -4,11 +4,16 @@ Project generated via [spring.io](https://start.spring.io/#!type=gradle-project&
 
 ## Goal
 
-- [ ] Basic CRUD usage
+- [x] Basic CRUD usage
+- [x] Domain Model with BaseRecord inheritance
 - [ ] Inheritance
   - [ ] On same collection
   - [ ] On different collection
-- [ ] Using `@TypeAlias`
+- [ ] Various [Schema Design Pattern](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
+  - [ ] Polymorphic
+  - [ ] Document Versioning
+  - [ ] Schema Versioning
+- [x] Using `@TypeAlias`
 - [ ] Using `Converter`
 - [ ] Using `@DBRef`
 - [ ] Using `Criteria`
@@ -22,8 +27,8 @@ Project generated via [spring.io](https://start.spring.io/#!type=gradle-project&
 - [ ] Validation
   - [ ] [JSON Schema](https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.jsonSchema)
   - [ ] Pojo
-- [ ] Versioning
-  - [ ] Root Document
+- [x] Versioning
+  - [x] Root Document
   - [ ] Sub / Nested Document
 - [ ] Publish Domain Event
 - [ ] Route read / write query
